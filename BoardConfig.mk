@@ -111,7 +111,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 TARGET_PREBUILT_KERNEL := device/htc/marvel/prebuilt/kernel
 LOCAL_KERNEL := device/htc/marvel/prebuilt/kernel
 
-TARGET_NO_RECOVERY := true
+#TARGET_NO_RECOVERY := true
 WITH_DEXPREOPT := true
 
 #TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/marvel/prebuilt/recovery_kernel
