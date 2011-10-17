@@ -79,7 +79,9 @@ BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
 
 BOARD_USE_NEW_LIBRIL_HTC := true
 
+BOARD_AVOID_DRAW_TEXTURE_EXTENSION := true
 BOARD_NO_RGBX_8888 := true
+TARGET_LIBAGL_USE_GRALLOC_COPYBITS := true
 
 BOARD_USES_QCOM_GPS := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := marvel
@@ -108,3 +110,5 @@ LOCAL_KERNEL := device/htc/marvel/prebuilt/kernel
 
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/marvel/prebuilt/recovery_kernel
 BOARD_USES_RECOVERY_CHARGEMODE := true
+
+#PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=\$(TOP)/device/htc/marvel/prelink-linux-arm-marvel.map
