@@ -108,7 +108,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 TARGET_PREBUILT_KERNEL := device/htc/marvel/prebuilt/kernel
 LOCAL_KERNEL := device/htc/marvel/prebuilt/kernel
 
-TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/marvel/prebuilt/recovery_kernel
-BOARD_USES_RECOVERY_CHARGEMODE := true
+TARGET_OTA_NO_RECOVERY := true
+
+#TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/marvel/prebuilt/recovery_kernel
+#BOARD_USES_RECOVERY_CHARGEMODE := true
 
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=\$(TOP)/device/htc/marvel/prelink-linux-arm-marvel.map
