@@ -112,6 +112,7 @@ TARGET_PREBUILT_KERNEL := device/htc/marvel/prebuilt/kernel
 LOCAL_KERNEL := device/htc/marvel/prebuilt/kernel
 
 TARGET_OTA_NO_RECOVERY := true
+WITH_DEXPREOPT := true
 
 #TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/marvel/prebuilt/recovery_kernel
 #BOARD_USES_RECOVERY_CHARGEMODE := true
